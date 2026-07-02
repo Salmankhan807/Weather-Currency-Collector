@@ -19,4 +19,5 @@ else:
 
 if (choice==1):
     weather = WeatherAPI()
-    weather.get_weather()
+    city = input("Enter city: ")
+    weather.get_weather(city)
