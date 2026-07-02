@@ -11,7 +11,6 @@ class WeatherAPI:
         response = requests.get(url)
         
         data = response.json()
-        print(data)
         if data["cod"] != 200:
             print("City not found!")
             return
