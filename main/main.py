@@ -1,0 +1,22 @@
+from weather import  WeatherAPI 
+
+def display_menu():
+    print(" 1 for weather ")
+    print(" 2 for Currency ")
+    print(" 0 to Exit :")
+display_menu()
+
+choice =int(input('Enter your choice :'))
+if (choice==1):
+    print('weather chosen')
+elif (choice==2):
+    print('currency chosen')
+elif (choice==0):
+    print('Good bye')
+else:
+    print("Invalid number Entered")
+
+
+if (choice==1):
+    weather = WeatherAPI()
+    weather.get_weather()
