@@ -29,6 +29,15 @@ The application allows users to check the live weather of any city and convert c
 - Validates user input
 
 ---
+## Screenshots
+
+### Weather Module
+
+![Weather Report](images/weather.png)
+
+### Currency Converter
+
+![Currency Converter](images/currency.png)
 
 ## Technologies Used
 
